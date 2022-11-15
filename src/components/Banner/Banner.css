@@ -88,7 +88,12 @@ button:hover {
     font-weight: 600;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
+    .main-banner {
+        overflow: hidden;
+        justify-content: flex-end;
+    }
+
     .main-banner-container {
         display: flex;
         flex-wrap: wrap-reverse;
@@ -98,7 +103,14 @@ button:hover {
     }
 
     .main-banner-imagem img {
-        height: 20rem;
+        height: 16rem;
+    }
+
+    .main-banner-ornament {
+        position: relative;
+        object-fit: cover;
+        right: -70px;
+        top: 15px;
     }
 
     .main-banner-text {

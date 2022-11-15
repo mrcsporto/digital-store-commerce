@@ -3,8 +3,10 @@ import './Banner.css'
 export default function Banner(options) {
     return (
         <section className='main-banner'>
+            <div className='main-banner-ornament'>
+                <img src="/images/ornament_banner.png" alt="ornament"/>
+            </div>
             <div className='main-banner-container'>
-            <div className='main-banner-ornament'><img src="/images/ornament_banner.png" alt="ornament"/></div>
                 <div className='main-banner-text'>                    
                     <h2>Melhores ofertas personalizadas</h2>
                     <h1>Queima de estoque Nike 🔥</h1>
